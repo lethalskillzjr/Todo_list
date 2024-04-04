@@ -1,0 +1,68 @@
+body{
+  background-color: #824AF5;
+}
+
+.App {
+  text-align: center;
+}
+.Todowrapper{
+  margin: auto;
+  background-color: #1B163E;
+  width: 50%;
+  padding: 1%;
+  position: relative;
+  top: 3rem;
+  border-radius: 5px;
+  color: white;
+}
+
+.todo-input{
+  border: solid 2px #3E2951;
+  border-radius: 2px 0px 0px 2px;
+  background-color: transparent;
+  color: white;
+  padding: 5px;
+  margin-bottom: 10px;
+  /* height: 10%; */
+}
+
+.todo-input:focus{
+  outline: none;
+}
+
+.Todoform > button{
+  background-color: #3E2951;
+  color: white;
+  border-style: none;
+  padding: 5px;
+  /* height: 29px; */
+}
+
+.Todo{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 75%;
+}
+
+.Todo > p{
+  padding: 5px;
+  border: solid 2px #3E2951;
+  background-color: #3E2951;
+  color: white;
+  width: 25.1%;
+  /* height: 29px; */
+  text-align: left;
+}
+
+.Todo > input{
+  width: 75%;
+}
+
+button{
+  /* background-color: #3E2951; */
+  border-style: none;
+  /* margin-block: 16px; */
+  /* color: white; */
+  /* border-radius: 2px 0px 0px 2px; */
+}
