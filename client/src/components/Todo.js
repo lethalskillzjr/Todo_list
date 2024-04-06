@@ -28,7 +28,7 @@ const Todo = ({task, onDelete, onUpdate}) => {
               className='todo-input input'
           />
           <div className='input-group-append'>
-            <button type='button' onClick={handleSave} className='btn btn-secondary rounded-0'>
+            <button type='submit' onClick={handleSave} className='btn btn-secondary rounded-0'>
               save Todo
             </button>
           </div>
@@ -50,11 +50,6 @@ const Todo = ({task, onDelete, onUpdate}) => {
         </div>
         </>
       )}
-      {/* <button type='button' onClick={handleEdit} className='edit-btn'>Edit</button>
-      <button type='button' onClick={onDelete} className='todo-btn'>delete</button>
-      {isEditing && (
-        <button type='button' onClick={handleSave} className='save-btn'>save</button>
-      )} */}
     </div>
   )
 }
